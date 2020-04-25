@@ -28,7 +28,10 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "src/assets/sass/paper-kit.scss",
+              "src/assets/css/demo.css",
+              "src/assets/css/nucleo-icons.css"
             ],
             "scripts": []
           },
@@ -92,7 +95,10 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "src/assets/sass/paper-kit.scss",
+              "src/assets/css/demo.css",
+              "src/assets/css/nucleo-icons.css"
             ],
             "scripts": []
           }
@@ -123,6 +129,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "reserve-app"
+    }
+  },
+  "defaultProject": "reserve-app",
+  "cli": {
+    "analytics": "fe76cb01-828f-4c70-9055-9d5177492590"
+  }
 }
