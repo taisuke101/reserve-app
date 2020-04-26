@@ -98,7 +98,6 @@
 }
 
 .navigation-example {
-    background-image: url('../img/ilya-yakover.jpg');
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
@@ -687,7 +686,6 @@
     }
     .rotating-card .back {
         visibility: hidden;
-        -ms-transition: all 0.2s cubic-bezier(.92, .01, .83, .67);
     }
     .rotating-card .front {
         z-index: 4;
@@ -773,9 +771,7 @@ pre.prettyprint {
     box-shadow: 0 -3px 8px rgba(0, 0, 0, 0);
 }
 
-.presentation .section-images .card-image .image {
-    /*     border-radius: 6px; */
-}
+
 
 @media (max-width: 1200px) {
     .presentation .section-images .image img {
