@@ -11,7 +11,7 @@ import { ProductComponent } from './product/product.component';
   declarations: [
     AppComponent,
     NavbarComponent,
-    ProductComponent
+    ProductComponent,
   ],
   imports: [
     BrowserModule,
