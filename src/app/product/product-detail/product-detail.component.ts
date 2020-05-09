@@ -18,15 +18,13 @@ export class ProductDetailComponent implements OnInit {
   ) {}
 
   ngOnInit(): void {
-    this.route.paramMap.subscribe(params => {
-      //this.product = this.productService.getProductById(params.get('productId'))
+      this.route.paramMap.subscribe(params => {
       const productObservable = this.productService.getProductById(params.get('productId'))
       productObservable.subscribe(
         (data) => {
           this.product = data
         },
         (error) => {
-          
         }
       )
     })
