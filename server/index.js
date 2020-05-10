@@ -29,7 +29,7 @@ app.use('/api/v1/products', ProductRoutes)
 app.use('/api/v1/users', UserRoutes)
 
 if (process.env.NODE_ENV === 'production') {
-    const appPath = path.join(__dirname, '..', 'dist', 'reserve-app')
+    const appPath = path.join( __dirname, '..', 'dist', 'reserve-app')
     app.use(express.static(appPath))
     app.get('*', function (req, res) {
         res.sendFile(path.resolve(appPath, 'index.html'))
